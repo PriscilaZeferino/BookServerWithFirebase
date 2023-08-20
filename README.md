@@ -39,7 +39,7 @@ O objetivo deste trabalho era desenvolver um servidor utilizando o banco de dado
 - Atualizar informações de livros existentes
 - Excluir livros do banco de dados
     
-## 👧🏻 AUTORA
+## AUTORA 👧🏻 
 
 Feito com 🧡 por Priscila Zeferino.
 
