@@ -5,10 +5,10 @@ const bodyParser = require('body-parser')
 const config = require('./config')
 
 const fs = require('firebase-admin');
-const serviceAccount = require('./key.json');
+// const serviceAccount = require('./key.json');
 
 fs.initializeApp({
-    credential: fs.credential.cert(serviceAccount),
+    credential: fs.credential.cert(config.serviceAccount),
     databaseURL: config.database
 });
 
