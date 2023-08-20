@@ -40,7 +40,18 @@ const getBookById = async (req, res) => {
 const addBooks = async (req, res) => {
     try {
         const data = req.body;
-        const book =  await db.collection('books').doc().set(data)
+        const bookRef =  await db.collection('books')
+        const docRef = await bookRef.add(data)
+        const generatedId = docRef.id;    
+
+        const bookDataWithId = {
+            id: generatedId,
+            ...data
+        };
+
+        await db.collection('books').doc(generatedId).update(bookDataWithId)
+
+
         res.status(200).json("Books saved sucessfully")
     } catch(error) {
         res.status(400).json(error.message)

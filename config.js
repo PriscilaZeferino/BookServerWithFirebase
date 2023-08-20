@@ -10,7 +10,7 @@ const {
     DATABASE_URL,
 } = process.env
 
-const serviceAccount = process.env.KEY;
+const serviceAccount = process.env.FIREBASE_PRIVATE_KEY;
 
 assert(PORT, 'PORT is required')
 assert(HOST, 'HOST is required')
