@@ -38,6 +38,23 @@ O objetivo deste projeto era desenvolver um servidor utilizando o banco de dados
 - Listar livros armazenados
 - Atualizar informações de livros existentes
 - Excluir livros do banco de dados
+
+### Rotas
+
+- **GET /listbooks**: Retorna a lista de todos os livros armazenados.
+- **GET /getBookById/:id**: Retorna as informações de um livro específico com base no ID.
+- **POST /addBook**: Adiciona um novo livro ao banco de dados.
+- **PUT /updateBook/:id**: Atualiza as informações de um livro existente com base no ID.
+- **DELETE /deleteBook/:id**: Exclui um livro do banco de dados com base no ID.
+
+Utilize um software de testes de API, como o Insomnia, para testar essas rotas e interagir com o servidor.
+
+## Utilizando o Insomnia para Testar as Rotas 🛠️
+
+- Instale e abra o [Insomnia](https://insomnia.rest/).
+- Crie um novo ambiente ou cole as variáveis de ambiente relevantes (URL do servidor, etc.).
+- Crie uma nova requisição para cada uma das rotas (adicionar, listar, atualizar, excluir) e configure os métodos HTTP adequados.
+- Adicione os parâmetros necessários nas requisições e faça os testes.
     
 ## AUTORA 👧🏻 
 
