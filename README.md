@@ -6,7 +6,7 @@ Este projeto consiste em um servidor construído com NodeJS que nos permite adic
 
 ## Objetivo
 
-O objetivo deste trabalho era desenvolver um servidor utilizando o banco de dados MariaDB ou o banco de dados Firebase como um trabalho da faculdade. O MariaDB havia sido apresentado em aula, portanto, optou-se por utilizar o Firebase para trazer um certo desafio adicional. A escolha do NodeJS como linguagem de desenvolvimento foi feita devido à maior familiaridade com essa tecnologia.
+O objetivo deste projeto era desenvolver um servidor utilizando o banco de dados MariaDB ou o banco de dados Firebase como um trabalho da faculdade. O MariaDB havia sido apresentado em aula, portanto, optou-se por utilizar o Firebase para trazer um certo desafio adicional. A escolha do NodeJS como linguagem de desenvolvimento foi feita devido à maior familiaridade com essa tecnologia.
 
 ## Ferramentas/Tecnologias Utilizadas 🛠️
 
