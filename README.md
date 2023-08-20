@@ -4,6 +4,17 @@
 
 Este projeto consiste em um servidor construído com NodeJS que nos permite adicionar, atualizar, listar e excluir livros de um banco de dados utilizando o Firebase.
 
+## Sumário
+
+- [Objetivo](#objetivo)
+- [Ferramentas/Tecnologias Utilizadas](#ferramentasteconologias-utilizadas)
+- [Pré-requisitos](#pré-requisitos)
+- [Como Executar o Projeto Localmente](#como-executar-o-projeto-localmente)
+- [Funcionalidades](#funcionalidades)
+- [Utilizando o Insomnia para Testar as Rotas](#utilizando-o-insomnia-para-testar-as-rotas)
+- [Autora](#autora)
+- [Contato](#contato)
+
 ## Objetivo
 
 O objetivo deste projeto era desenvolver um servidor utilizando o banco de dados MariaDB ou o banco de dados Firebase como um trabalho da faculdade. O MariaDB havia sido apresentado em aula, portanto, optou-se por utilizar o Firebase para trazer um certo desafio adicional. A escolha do NodeJS como linguagem de desenvolvimento foi feita devido à maior familiaridade com essa tecnologia.
@@ -19,7 +30,7 @@ O objetivo deste projeto era desenvolver um servidor utilizando o banco de dados
 - Conta no [Console do Firebase](https://console.firebase.google.com/)
 - Chave privada de serviço do Firebase (arquivo JSON)
 
-## Como Usar 🚀
+## Como Executar o Projeto Localmente 🚀
 
 1. Clone este repositório para o seu ambiente local.
 2. Execute `npm install` para instalar as dependências.
@@ -56,11 +67,11 @@ Utilize um software de testes de API, como o Insomnia, para testar essas rotas e
 - Crie uma nova requisição para cada uma das rotas (adicionar, listar, atualizar, excluir) e configure os métodos HTTP adequados.
 - Adicione os parâmetros necessários nas requisições e faça os testes.
     
-## AUTORA 👧🏻 
+## Autora 👧🏻 
 
 Feito com 🧡 por Priscila Zeferino.
 
-## ✉ Contato:
+## Contato ✉
 
 - Linkedin: [Priscila Zeferino](https://www.linkedin.com/in/priscila-zeferino-594b5b175/)
 - E-mail: priscila.zeferino23@gmail.com
